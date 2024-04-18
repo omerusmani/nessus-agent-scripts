@@ -1,11 +1,20 @@
+# NOTE: Set execution policy to allow this script before running. 
+# Example: Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+
+# Author: Omer Usmani
+# Email: its.omerusmani@gmail.com
+# Date: 04-17-24
+# Description: This script automates the deployment of a Nessus Agent on a Windows endpoint.
+
 # Configuration variables
-$NESSUS_VERSION="10.6.1"
-$DOWNLOAD_LINK="https://www.tenable.com/downloads/api/v1/public/pages/nessus-agents/downloads/22697/download?i_agree_to_tenable_license_agreement=true"
+
+$NESSUS_VERSION="10.6.2"
+$DOWNLOAD_LINK="https://www.tenable.com/downloads/api/v1/public/pages/nessus-agents/downloads/22846/download?i_agree_to_tenable_license_agreement=true"
 $MSI_FILE="NessusAgent-${NESSUS_VERSION}-x64.msi"
 $NESSUS_AGENT_FOLDER="C:\Program Files\Tenable\Nessus Agent"
-$NESSUS_MANAGER_KEY=""
+$NESSUS_MANAGER_KEY="" # Rotate key periodically in Nessus Manager, or implement a secrets manager.
 $NESSUS_MANAGER_HOST=""
-$NESSUS_MANAGER_PORT="8834" # Default listening port is 8834
+$NESSUS_MANAGER_PORT="8834" # Default remote_listen_port is 8834.
 $NESSUS_MANAGER_GROUPS=""
 
 # Check for administrator privileges
