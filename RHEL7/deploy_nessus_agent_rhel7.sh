@@ -6,13 +6,13 @@
 # Description: This script automates the deployment of a Nessus Agent on a RHEL7 or AL2 endpoint.
 
 # Configuration variables
-NESSUS_VERSION="10.6.1"
-DOWNLOAD_LINK="https://www.tenable.com/downloads/api/v1/public/pages/nessus-agents/downloads/22703/download?i_agree_to_tenable_license_agreement=true"
+NESSUS_VERSION="10.6.2"
+DOWNLOAD_LINK="https://www.tenable.com/downloads/api/v1/public/pages/nessus-agents/downloads/22852/download?i_agree_to_tenable_license_agreement=true"
 RPM_FILE="NessusAgent-${NESSUS_VERSION}-el7.x86_64.rpm"
 NESSUS_AGENT_DIR="/opt/nessus_agent"  
-NESSUS_MANAGER_KEY=""
+NESSUS_MANAGER_KEY="" # Rotate key periodically in Nessus Manager, or implement a secrets manager.
 NESSUS_MANAGER_HOST=""
-NESSUS_MANAGER_PORT="8834" # Default listening port is 8834
+NESSUS_MANAGER_PORT="8834" # Default remote_listen_port is 8834.
 NESSUS_MANAGER_GROUPS=""
 
 # Check for root privileges
