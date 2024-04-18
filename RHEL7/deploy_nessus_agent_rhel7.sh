@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Author: Omer Usmani
+# Email: its.omerusmani@gmail.com
+# Date: 04-17-24
+# Description: This script automates the deployment of a Nessus Agent on a RHEL7 or AL2 endpoint.
+
 # Configuration variables
 NESSUS_VERSION="10.6.1"
 DOWNLOAD_LINK="https://www.tenable.com/downloads/api/v1/public/pages/nessus-agents/downloads/22703/download?i_agree_to_tenable_license_agreement=true"
