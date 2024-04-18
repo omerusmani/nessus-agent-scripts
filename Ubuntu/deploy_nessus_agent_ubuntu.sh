@@ -3,7 +3,7 @@
 # Author: Omer Usmani
 # Email: its.omerusmani@gmail.com
 # Date: 04-17-24
-# Description: This script automates the deployment of a Nessus Agent on a RHEL8 or AL3 endpoint.
+# Description: This script automates the deployment of a Nessus Agent on an Ubuntu endpoint.
 
 # Configuration variables
 NESSUS_VERSION="10.6.2"
