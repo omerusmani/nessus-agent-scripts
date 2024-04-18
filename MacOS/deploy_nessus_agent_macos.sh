@@ -7,7 +7,7 @@
 
 # Configuration variables
 NESSUS_VERSION="10.6.2"
-DOWNLOAD_LINK="https://www.tenable.com/downloads/api/v1/public/pages/nessus-agents/downloads/22848/download?i_agree_to_tenable_license_agreement=true"
+DOWNLOAD_LINK=""
 DMG_FILE="NessusAgent-${NESSUS_VERSION}.dmg"
 NESSUS_AGENT_DIR="/Library/NessusAgent"
 NESSUS_MANAGER_KEY="" # Rotate key periodically in Nessus Manager, or implement a secrets manager.
