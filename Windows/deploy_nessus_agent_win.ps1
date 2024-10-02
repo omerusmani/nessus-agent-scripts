@@ -3,12 +3,12 @@
 
 # Author: Omer Usmani
 # Email: its.omerusmani@gmail.com
-# Date: 04-17-24
+# Date: 10-02-24
 # Description: This script automates the deployment of a Nessus Agent on a Windows endpoint.
 
 # Configuration variables
 
-$NESSUS_VERSION="10.6.2"
+$NESSUS_VERSION="10.7.3"
 $DOWNLOAD_LINK="https://www.tenable.com/downloads/api/v1/public/pages/nessus-agents/downloads/22846/download?i_agree_to_tenable_license_agreement=true"
 $MSI_FILE="NessusAgent-${NESSUS_VERSION}-x64.msi"
 $NESSUS_AGENT_FOLDER="C:\Program Files\Tenable\Nessus Agent"

@@ -2,12 +2,12 @@
 
 # Author: Omer Usmani
 # Email: its.omerusmani@gmail.com
-# Date: 04-17-24
+# Date: 10-02-24
 # Description: This script automates the deployment of a Nessus Agent on a RHEL8 or AL3 endpoint.
 
 # Configuration variables
-NESSUS_VERSION="10.6.2"
-DOWNLOAD_LINK="https://www.tenable.com/downloads/api/v1/public/pages/nessus-agents/downloads/22854/download?i_agree_to_tenable_license_agreement=true"
+NESSUS_VERSION="10.7.3"
+DOWNLOAD_LINK="https://www.tenable.com/downloads/api/v1/public/pages/nessus-agents/downloads/24284/download?i_agree_to_tenable_license_agreement=true"
 RPM_FILE="NessusAgent-${NESSUS_VERSION}-el8.x86_64.rpm"
 NESSUS_AGENT_DIR="/opt/nessus_agent"
 NESSUS_MANAGER_KEY="" # Rotate key periodically in Nessus Manager, or implement a secrets manager.
