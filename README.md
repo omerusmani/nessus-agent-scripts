@@ -24,24 +24,24 @@ This repository provides deployment scripts for the following platforms:
 * Create a new agent group if needed
 * Obtain linking key
 
-<img width="395" alt="Agent Group" src="https://github.com/user-attachments/assets/9c1ae49a-e2c3-4f67-9a6a-31bbfa3abb83">
+<img width="720" alt="Agent Group" src="https://github.com/user-attachments/assets/9c1ae49a-e2c3-4f67-9a6a-31bbfa3abb83">
 
-<img width="725" alt="Linking Key" src="https://github.com/user-attachments/assets/26c8ddaa-eb3f-46b5-8ab7-281ebb2ac31e">
+<img width="720" alt="Linking Key" src="https://github.com/user-attachments/assets/26c8ddaa-eb3f-46b5-8ab7-281ebb2ac31e">
 
 
-#### 1) Clone this repository to your endpoint.
+#### 1) Clone this repository to your endpoint
 ```bash
 git clone https://github.com/omerusmani/nessus-agent-scripts.git
 ```
 
 
-#### 2) Navigate to the appropriate directory or folder for your OS.
+#### 2) Navigate to the appropriate directory or folder for your OS
 ```bash
 cd <OS-DIRECTORY>
 ```
 
 
-#### 3) Edit Script.
+#### 3) Edit Script
 Add Nessus Manager URL, Linking Key, and Agent Group.
 
 Linux & MacOS
@@ -54,14 +54,15 @@ Windows
 vim deploy_nessus_agent_<OS>.ps1
 ```
 
-  NOTE: VSCode was used for this example.
+❗NOTE: VSCode was used for this example.
 ```bash
 code deploy_nessus_agent_<OS>.ps1
 ```
 
-<img width="738" alt="Edit Script" src="https://github.com/user-attachments/assets/cee24e6b-27fc-4a9f-8fb6-95c45447adad">
+<img width="720" alt="Edit Script" src="https://github.com/user-attachments/assets/cee24e6b-27fc-4a9f-8fb6-95c45447adad">
 
-#### 4) Run Script.
+
+#### 4) Run Script
 Linux & MacOS
 ```bash
 chmod +x deploy_nessus_agent_<OS_NAME>.sh
@@ -73,3 +74,16 @@ Windows
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope
 .\deploy_nessus_agent_win.ps1
 ```
+
+<img width="720" alt="Install Windows" src="https://github.com/user-attachments/assets/85cdb028-920c-41a9-9de5-8cfb4272e098">
+
+❗NOTE: Download may take several minutes on Windows.
+
+
+#### 5) Enter Agent Name & Confirm Linking
+<img width="720" alt="Enter name   confirm" src="https://github.com/user-attachments/assets/1f6fd17c-7183-45d4-a4d7-473c06215772">
+
+
+
+#### 6) Check Nessus Manager for Agent
+<img width="720" alt="Screenshot 2024-09-20 at 10 47 28 PM" src="https://github.com/user-attachments/assets/2d76bd80-d31d-4ed4-a09d-17ca672470fa">
