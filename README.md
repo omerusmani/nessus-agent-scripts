@@ -1,16 +1,16 @@
 # Nessus Agent Deployment Scripts
 
 ## Overview
+A set of scripts for deploying a Nessus Agent for various operating systems. The scripts automate the process of downloading, installing, and linking a Nessus Agent to a remote Nessus Manager installation, provided that the endpoint on which the script is run can communicate with it. They also clean up previous installations, helping to remediate common issues with linking after reinstallation.
 
-A set of scripts for deploying a Nessus Agent for various operating systems. The scripts automate the process of downloading, installing and linking a Nessus Agent to a remote Nessus Manager installation, given that the endpoint the script is ran on can communicate with it. 
+The scripts can be modified to work with an MDM solution for mass deployment.
 
-This script can be modified to work with an MDM solution for mass deployment. 
 
 ## Supported Operating Systems
 
 This repository provides deployment scripts for the following platforms:
 
-* MacOS
+* macOS
 * Red Hat Enterprise Linux 7 (RHEL 7)/Amazon Linux 2 
 * Red Hat Enterprise Linux 8 (RHEL 8)/Amazon Linux 3 
 * Ubuntu 
@@ -44,7 +44,7 @@ cd <OS-DIRECTORY>
 #### 3) Edit Script
 * Add Nessus Manager URL, Linking Key, and Agent Group.
 
-* Linux & MacOS
+* Linux & macOS
 ```bash
 vim deploy_nessus_agent_<OS>.sh
 ```
@@ -87,3 +87,8 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope
 
 #### 6) Check Nessus Manager for Agent
 <img width="720" alt="Screenshot 2024-09-20 at 10 47 28 PM" src="https://github.com/user-attachments/assets/2d76bd80-d31d-4ed4-a09d-17ca672470fa">
+
+
+## Helpful Resources
+* Official Tenable Nessus Agent Documentation:
+https://docs.tenable.com/nessus-agent/10_7/Content/GettingStarted.htm
