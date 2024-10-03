@@ -24,7 +24,32 @@ This repository provides deployment scripts for the following platforms:
 * Create a new agent group if needed
 * Obtain linking key
 
-
 <img width="395" alt="Agent Group" src="https://github.com/user-attachments/assets/9c1ae49a-e2c3-4f67-9a6a-31bbfa3abb83">
 
 <img width="725" alt="Linking Key" src="https://github.com/user-attachments/assets/26c8ddaa-eb3f-46b5-8ab7-281ebb2ac31e">
+
+
+#### 1) Clone this repository to your endpoint.
+```bash
+git clone https://github.com/omerusmani/nessus-agent-scripts.git
+```
+
+
+#### 2) Navigate to the appropriate directory or folder for your OS.
+```bash
+cd <OS-DIRECTORY>
+```
+
+
+#### 3) Edit Script.
+Add Nessus Manager URL, Linking Key, and Agent Group.
+
+```bash
+vim deploy_nessus_agent_<OS>.sh
+```
+
+```bash
+vim deploy_nessus_agent_<OS>.ps1
+```
+
+<img width="738" alt="Edit Script" src="https://github.com/user-attachments/assets/cee24e6b-27fc-4a9f-8fb6-95c45447adad">
