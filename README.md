@@ -46,17 +46,17 @@ cd <OS-DIRECTORY>
 
 * Linux & macOS
 ```bash
-vim deploy_nessus_agent_<OS>.sh
+vim deploy_nessus_agent_<OS_NAME>.sh
 ```
 
 * Windows
 ```bash
-vim deploy_nessus_agent_<OS>.ps1
+vim deploy_nessus_agent_<OS_NAME>.ps1
 ```
 
 ❗NOTE: VSCode was used for this example.
 ```bash
-code deploy_nessus_agent_<OS>.ps1
+code deploy_nessus_agent_<OS_NAME>.ps1
 ```
 
 <img width="720" alt="Edit Script" src="https://github.com/user-attachments/assets/cee24e6b-27fc-4a9f-8fb6-95c45447adad">
