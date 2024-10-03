@@ -47,9 +47,15 @@ Add Nessus Manager URL, Linking Key, and Agent Group.
 ```bash
 vim deploy_nessus_agent_<OS>.sh
 ```
+```bash
+code deploy_nessus_agent_<OS>.sh
+```
 
 ```bash
 vim deploy_nessus_agent_<OS>.ps1
+```
+```bash
+code deploy_nessus_agent_<OS>.ps1
 ```
 
 <img width="738" alt="Edit Script" src="https://github.com/user-attachments/assets/cee24e6b-27fc-4a9f-8fb6-95c45447adad">
