@@ -44,18 +44,32 @@ cd <OS-DIRECTORY>
 #### 3) Edit Script.
 Add Nessus Manager URL, Linking Key, and Agent Group.
 
+Linux & MacOS
 ```bash
 vim deploy_nessus_agent_<OS>.sh
 ```
-```bash
-code deploy_nessus_agent_<OS>.sh
-```
 
+Windows
 ```bash
 vim deploy_nessus_agent_<OS>.ps1
 ```
+
+  NOTE: VSCode was used for this example.
 ```bash
 code deploy_nessus_agent_<OS>.ps1
 ```
 
 <img width="738" alt="Edit Script" src="https://github.com/user-attachments/assets/cee24e6b-27fc-4a9f-8fb6-95c45447adad">
+
+#### 4) Run Script.
+Linux & MacOS
+```bash
+chmod +x deploy_nessus_agent_<OS_NAME>.sh
+./deploy_nessus_agent_<OS_NAME>.sh
+```
+
+Windows
+```bash
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope
+.\deploy_nessus_agent_win.ps1
+```
