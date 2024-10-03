@@ -12,7 +12,7 @@ This repository provides deployment scripts for the following platforms:
 
 * MacOS
 * Red Hat Enterprise Linux 7 (RHEL 7)/Amazon Linux 2 
-* Red Hat Enterprise Linux 8 (RHEL 7)/Amazon Linux 3 
+* Red Hat Enterprise Linux 8 (RHEL 8)/Amazon Linux 3 
 * Ubuntu 
 * Windows 
 
@@ -42,14 +42,14 @@ cd <OS-DIRECTORY>
 
 
 #### 3) Edit Script
-Add Nessus Manager URL, Linking Key, and Agent Group.
+* Add Nessus Manager URL, Linking Key, and Agent Group.
 
-Linux & MacOS
+* Linux & MacOS
 ```bash
 vim deploy_nessus_agent_<OS>.sh
 ```
 
-Windows
+* Windows
 ```bash
 vim deploy_nessus_agent_<OS>.ps1
 ```
@@ -63,13 +63,13 @@ code deploy_nessus_agent_<OS>.ps1
 
 
 #### 4) Run Script
-Linux & MacOS
+* Linux & MacOS
 ```bash
 chmod +x deploy_nessus_agent_<OS_NAME>.sh
 ./deploy_nessus_agent_<OS_NAME>.sh
 ```
 
-Windows
+* Windows
 ```bash
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope
 .\deploy_nessus_agent_win.ps1
