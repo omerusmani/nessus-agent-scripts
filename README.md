@@ -63,7 +63,7 @@ code deploy_nessus_agent_<OS>.ps1
 
 
 #### 4) Run Script
-* Linux & MacOS
+* Linux & macOS
 ```bash
 chmod +x deploy_nessus_agent_<OS_NAME>.sh
 ./deploy_nessus_agent_<OS_NAME>.sh
