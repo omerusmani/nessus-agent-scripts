@@ -1,13 +1,12 @@
 #!/bin/bash
 
 # Author: Omer Usmani
-# Email: its.omerusmani@gmail.com
-# Date: 10-02-24
+# Date: 11-14-24
 # Description: This script automates the deployment of a Nessus Agent on a MacOS endpoint.
 
 # Configuration variables
-NESSUS_VERSION="10.7.3"
-DOWNLOAD_LINK="https://www.tenable.com/downloads/api/v1/public/pages/nessus-agents/downloads/24280/download?i_agree_to_tenable_license_agreement=true"
+NESSUS_VERSION="10.8.0"
+DOWNLOAD_LINK="https://www.tenable.com/downloads/api/v1/public/pages/nessus-agents/downloads/24580/download?i_agree_to_tenable_license_agreement=true"
 DMG_FILE="NessusAgent-${NESSUS_VERSION}.dmg"
 NESSUS_AGENT_DIR="/Library/NessusAgent"
 NESSUS_MANAGER_KEY="" # Rotate key periodically in Nessus Manager, or implement a secrets manager.
