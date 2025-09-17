@@ -11,7 +11,6 @@ The scripts can be modified to work with an MDM solution for mass deployment.
 This repository provides deployment scripts for the following platforms:
 
 * macOS
-* Red Hat Enterprise Linux 7 (RHEL 7)/Amazon Linux 2 
 * Red Hat Enterprise Linux 8 (RHEL 8)/Amazon Linux 3 
 * Ubuntu 
 * Windows 
