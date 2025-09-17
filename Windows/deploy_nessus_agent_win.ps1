@@ -2,7 +2,7 @@
 # Example: Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 
 # Author: Omer Usmani
-# Date: 11-14-24
+# Date: 9-17-25
 # Description: This script automates the deployment of a Nessus Agent on a Windows endpoint.
 
 # Configuration variables
@@ -74,5 +74,6 @@ Write-Host "Using '$AGENT_NAME' as the Nessus Agent name."
     --groups="$NESSUS_MANAGER_GROUPS" `
     --host="$NESSUS_MANAGER_HOST" `
     --port="$NESSUS_MANAGER_PORT"
+
 
 exit 0
