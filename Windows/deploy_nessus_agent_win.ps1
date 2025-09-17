@@ -6,8 +6,8 @@
 # Description: This script automates the deployment of a Nessus Agent on a Windows endpoint.
 
 # Configuration variables
-$NESSUS_VERSION="10.8.0"
-$DOWNLOAD_LINK="https://www.tenable.com/downloads/api/v1/public/pages/nessus-agents/downloads/24578/download?i_agree_to_tenable_license_agreement=true"
+$NESSUS_VERSION="11.0.1"
+$DOWNLOAD_LINK="https://www.tenable.com/downloads/api/v1/public/pages/nessus-agents/downloads/26416/download?i_agree_to_tenable_license_agreement=true"
 $MSI_FILE="NessusAgent-${NESSUS_VERSION}-x64.msi"
 $NESSUS_AGENT_FOLDER="C:\Program Files\Tenable\Nessus Agent"
 $NESSUS_MANAGER_KEY="" # Rotate key periodically in Nessus Manager, or implement a secrets manager.
